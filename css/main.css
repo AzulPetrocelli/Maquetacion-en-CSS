@@ -40,6 +40,10 @@ header .header-icons-container .icons {
   margin-right: 5rem;
 }
 
+header .icons span {
+  color: white;
+}
+
 a {
   text-decoration: none;
   display: inline;
