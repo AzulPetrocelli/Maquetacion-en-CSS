@@ -78,19 +78,25 @@ nav .profile-link a{
   border-bottom: solid 1px black;
 }
 
-.cover {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 85vh;
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
   background-image: url('../assets/img/cover.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.cover-tittle {
-  margin-top: 10rem;
+.home-main section{
+  display: grid;
+  grid-column: 2;
+  place-items: center;
+  height: 35rem;
+  margin-top: 8rem;
+}
+
+.home-main section h1 {
   font-family: 'Roboto Mono', monospace;
   font-size: 3rem;
   font-weight: 300;
@@ -99,11 +105,8 @@ nav .profile-link a{
   color: aliceblue;
 }
 
-.cover-button {
-  margin-top: 10rem;
-  width: 10rem;
+.home-main section button {
   padding: 1rem;
-  align-self: center;
   border: none;
   border-radius: 0;
   font-family: 'Roboto Mono', monospace;
