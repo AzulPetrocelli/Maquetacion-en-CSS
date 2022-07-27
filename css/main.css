@@ -117,3 +117,35 @@ nav .profile-link a{
   color: black;
   background-color: #47CFAC;
 }
+
+/*Blogs.html----------------------------------------------------------------------------------------------------------------------------------*/
+.blogs-main {
+  display: grid;
+}
+
+.blogs-news-container {
+  background-color: #E6E9ED;
+  padding: 2rem 5rem;
+}
+
+.blogs-main-news {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+  grid-column: 1;
+}
+
+.blogs-news-img-container img{
+  
+}
+
+.blogs-news-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container p {
+  margin-bottom: 3.5rem;
+}
