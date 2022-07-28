@@ -8,6 +8,9 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
+}
+
+.home-body{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -139,7 +142,7 @@ nav .profile-link a{
 }
 
 .blogs-news-img-container img{
-  
+  width: 85%;
 }
 
 .blogs-news-info-container {
@@ -148,4 +151,14 @@ nav .profile-link a{
 
 .blogs-news-info-container p {
   margin-bottom: 3.5rem;
+}
+
+.blogs-posts-container {
+  padding: 0 4rem 5rem;
+}
+
+.blogs-posts-container h3 {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #CDD2DA;
 }
