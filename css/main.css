@@ -226,3 +226,47 @@ footer p {
   margin: 2rem 0;
 }
 
+.contact-main-container {
+  width: 100%;
+  padding: 6rem;
+  background-color: #CDD2DA;
+  display: grid;
+  grid-template-columns: 3rem 2fr 1fr 2fr 3rem;
+  grid-template-rows: 10rem;
+}
+
+.contact-main-container .contact-left {
+  grid-area: 1/2/2/3;
+  place-self: start;
+  display: flex;
+}
+
+.contact-main-container .contact-right {
+  grid-area: 1/4/2/5;
+  place-self: start;
+  display: flex;
+}
+
+.contact-right img,
+.contact-left img {
+  width: 7rem;
+}
+
+.contact-right div,
+.contact-left div{
+  margin-left: 0.5rem;
+  align-self: end;
+  font-family: 'Roboto Mono', monospace
+}
+
+.contact-right a,
+.contact-left a{
+  border-bottom: 1px solid #22272D;
+  font-weight: bold;
+}
+
+.contact-right p,
+.contact-left p{
+  margin-top: 1rem;
+  font-weight: bold;
+}
