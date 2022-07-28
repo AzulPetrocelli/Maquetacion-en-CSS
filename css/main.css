@@ -203,3 +203,26 @@ footer p {
   margin-top: 3rem;
   font-size: 1.6rem;
 }
+
+.blogpost-img-container {
+  padding: 0 5rem 4rem;
+}
+
+.blogpost-img-container img {
+  width: 100%;
+}
+
+.blogpost-main-container {
+  padding: 0 5rem 4rem;
+}
+
+.grid-container h3 {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #CDD2DA;
+}
+
+.grid-container article h1 {
+  font-size: 3.5rem;
+  margin: 2rem 0;
+}
+
