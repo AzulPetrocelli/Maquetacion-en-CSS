@@ -10,6 +10,13 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+:root {
+  --primary-color: #47CFAC;
+  --secondary-color: #CDD2DA;
+  --dark: #22272D;
+  --gray: #E6E9ED;
+}
+
 .home-body{
   position: fixed;
   top: 0;
@@ -38,7 +45,7 @@ header .header-icons-container {
   width: 100%;
   height: 5rem;
   display: grid;
-  background-color: #47CFAC;
+  background-color: var(--primary-color);
 }
 
 a {
@@ -123,7 +130,7 @@ nav .profile-link a{
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
   color: black;
-  background-color: #47CFAC;
+  background-color: var(--primary-color);
 }
 
 /*Blogs.html----------------------------------------------------------------------------------------------------------------------------------*/
@@ -132,7 +139,7 @@ nav .profile-link a{
 }
 
 .blogs-news-container {
-  background-color: #E6E9ED;
+  background-color: var(--gray);
   padding: 2rem 5rem;
 }
 
@@ -165,11 +172,11 @@ nav .profile-link a{
 .blogs-posts-container h3 {
   padding: 1rem;
   text-align: center;
-  border-bottom: 1px solid #CDD2DA;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .blogs-button {
-  border: 1px solid #47CFAC;
+  border: 1px solid var(--primary-color);
   padding: 1rem 1.5rem;
   font-size: 1.2rem;
 }
@@ -193,8 +200,8 @@ nav .profile-link a{
 footer {
   width: 100%;
   height: 10rem;
-  background-color: #22272D;
-  border-top: 3.5rem solid #47CFAC;
+  background-color: var(--dark);
+  border-top: 3.5rem solid var(--primary-color);
   text-align: center;
 }
 
@@ -218,7 +225,7 @@ footer p {
 
 .grid-container h3 {
   padding-bottom: 2rem;
-  border-bottom: 1px solid #CDD2DA;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .grid-container article h1 {
@@ -229,7 +236,7 @@ footer p {
 .contact-main-container {
   width: 100%;
   padding: 6rem;
-  background-color: #CDD2DA;
+  background-color: var(--secondary-color);
   display: grid;
   grid-template-columns: 3rem 2fr 1fr 2fr 3rem;
   grid-template-rows: 10rem;
@@ -261,7 +268,7 @@ footer p {
 
 .contact-right a,
 .contact-left a{
-  border-bottom: 1px solid #22272D;
+  border-bottom: 1px solid var(--dark);
   font-weight: bold;
 }
 
@@ -269,4 +276,45 @@ footer p {
 .contact-left p{
   margin-top: 1rem;
   font-weight: bold;
+}
+
+.profile-main-container {
+  padding: 7rem 4rem;
+  background-color: var(--gray);
+  margin-bottom: 5rem;
+}
+
+.profile-main-container img {
+  width: 32rem;
+  margin-right: 3rem;
+}
+
+.profile-main-container .profile-container {
+  display: flex;
+}
+
+.profile-main-proyects {
+  padding: 0 5rem 4rem;
+}
+
+.profile-main-proyects h3 {
+  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 3.5rem;
+  text-align: center;
+}
+
+.proyects-main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
+
+.proyect-container {
+  padding: 0 0.5rem;
+}
+
+.proyect-container h4{
+  margin-bottom: 2rem;
+  font-weight: 900;
+  font-size: 1.4rem;
 }
